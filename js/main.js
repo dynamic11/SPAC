@@ -22,14 +22,17 @@ jQuery(function($) {
 		event.preventDefault();
 		var target = $(this).find('>a').prop('hash');
 		$('html, body').animate({
-			scrollTop: $(target).offset().top
+			scrollTop: $(target).offset().top - 100
 		}, 500);
 	});
 
 	//scrollspy
-	$('[data-spy="scroll"]').each(function () {
-		var $spy = $(this).scrollspy('refresh')
-	})
+	$(document).ready(function(){
+    $("body").scrollspy({
+        target: "#navbar",
+        offset: 120
+    }) 
+});
 
 	//PrettyPhoto
 	$("a.preview").prettyPhoto({

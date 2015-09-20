@@ -48,7 +48,7 @@ a:focus {
   z-index: 99999;
 }
 #main-slider {
-  background-image: url(../images/slider-bg.jpg);
+  background-image: url(../images/test.png);
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% 50%;
@@ -167,11 +167,12 @@ a:focus {
   border-radius: 0 0 5px 5px;
 }
 .box h2 {
-  padding: 10px 30px;
+  padding: 0px 30px;
   display: inline-block;
   border-radius: 4px;
   position: relative;
   margin-bottom: 30px;
+  margin-top: 0;
   font-size: 48px;
 }
 #portfolio .box {
@@ -220,7 +221,7 @@ a:focus {
   padding: 10px;
   border-bottom: 1px solid #e1e1e1;
 }
-.portfolio-item img {
+.portfolio-item {
   width: 100%;
 }
 .portfolio-item .portfolio-image {
@@ -500,7 +501,7 @@ a:focus {
 .navbar-default .navbar-nav > li.active:hover > a:focus,
 .navbar-default .navbar-nav > li:hover > a:focus,
 .navbar-default .navbar-nav > li:focus > a:focus {
-  background-color: #52b6ec;
+  background-color: #0B5172;
   color: #fff;
 }
 .icon-lg {
@@ -631,4 +632,31 @@ textarea#message {
     opacity: 1;
     -o-transform: scale(1);
   }
+}
+
+.speaker-image{
+    max-width:250px;
+}
+
+.about-tab-1{
+    color: #fff;
+    height: 250px;
+    padding: 40px 10px 40px 10px; 
+    background-color: #669933; 
+    
+}
+
+.about-tab-2{
+    color: #fff;
+    height: 250px;
+    margin: 5px;
+    padding: 40px 10px 40px 10px; 
+    background-color: #0B5172; 
+}
+.about-tab-3{
+    color: #fff;
+    height: 250px;
+    margin: 5px;
+    padding: 40px 10px 40px 10px; 
+    background-color: #CC0033; 
 }
