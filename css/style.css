@@ -1,0 +1,24 @@
+.page-head{
+	background-size: cover;
+	height: 520px;
+	padding: 0px 0 0 0px;
+	margin: 0px;
+	background: transparent;
+}
+.header-logo {
+   height:100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+.header-logo td{ 
+     vertical-align: middle;
+     text-align: center;
+}
+.header-logo img{ 
+     width: 50%;
+     max-width: 600px;
+     padding-top:80px;
+     
+}
