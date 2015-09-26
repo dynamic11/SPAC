@@ -22,3 +22,27 @@
      padding-top:80px;
      
 }
+.body-box{
+    margin-top: -60px;
+    z-index: 99;
+    background-color: #fff; 
+    padding: 40px 40px;
+    border-radius: 8px;
+}
+
+body{
+    background-color: #D3D3D3; 
+}
+
+.center-block {
+  margin: 0 auto;
+}
+
+.text-left {
+  text-align: left !important; }
+
+.text-right {
+  text-align: right !important; }
+
+.text-center {
+  text-align: center !important; }
