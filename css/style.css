@@ -36,8 +36,11 @@ hr {
     margin-bottom: 60px; 
 }
 
-
-
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
 
 
 
@@ -186,4 +189,14 @@ hr {
         width: 55%;
     }
 
+}
+
+/*==========================patron==============================*/
+.patrons-row img{
+    width:  80%;
+    max-width: 300px;
+    margin: 20px;
+}
+.patrons-row h3 {
+    color:#778899;;
 }
