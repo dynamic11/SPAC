@@ -1,3 +1,52 @@
+/*==========================general==============================*/
+.center-block {
+  margin: 0 auto;
+}
+
+.text-left {
+  text-align: left !important; }
+
+.text-right {
+  text-align: right !important; }
+
+.text-center {
+  text-align: center !important; 
+ }
+
+.shadow{
+    -webkit-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.75);
+}
+body{
+    background-color: #D3D3D3; 
+}
+
+hr {
+    width: 80%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0));
+}
+
+.section h1{
+    margin-bottom: 30px;
+}
+.section{
+    margin-bottom: 60px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+/*==========================cover photo==============================*/
 .page-head{
 	background-size: cover;
 	height: 520px;
@@ -30,43 +79,25 @@
     border-radius: 8px;
 }
 
-body{
-    background-color: #D3D3D3; 
-}
-
-.center-block {
-  margin: 0 auto;
-}
-
-.text-left {
-  text-align: left !important; }
-
-.text-right {
-  text-align: right !important; }
-
-.text-center {
-  text-align: center !important; }
-
+/*==========================Page header-info icons==============================*/
 .circle-icon {
     background: #ffc0c0;
-    padding:25px;
+    padding:20px 20px 20px 20px;
     border-radius: 50%;
-    height: 80px;
-    width: 80px;
+    height: 70px;
+    width: 70px;
     margin-bottom:5px;
-}
-.page-header{
-    margin-top:  0;
-}
-.shadow{
-    -webkit-box-shadow: 0px 0px 28px -2px rgba(0,0,0,0.75);
-    -moz-box-shadow: 0px 0px 28px -2px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 18px -2px rgba(0,0,0,0.75);
+    margin-top: 20px;
 }
 
+.page-header{
+    margin-top:  0px;
+    margin-bottom:  50px;
+}
 .calender-icon{
     background-color: #CC0033;
     color: #fff;
+    
 }
 .location-icon{
     background-color: #E37222;
@@ -76,23 +107,43 @@ body{
     background-color: #66CC33;
     color: #fff;
 }
-.ieee-dark-dark-blue{
-    color: #006699;
-}
-.icon-background {
-    color: #c0ffc0;
-}
-.white{
-    color: #fff;
-}
-.orange{
-    color: #E37222
-}
-
-.event-info-icons h4{
+.event-info-icons a h4{
     font-size: 18px; 
+    color: #2c3e50;
+    margin-bottom: 5px; 
 }
-.event-info-icons p{
-    font-size: 15px; 
+.event-info-icons a p{
+    font-size: 15px;
+    margin-top: 0px; 
     color: #778899;
 }
+.event-info-icons a{
+   text-decoration: none; 
+}
+
+/*==========================About==============================*/
+.about p{
+    padding: 20px;
+    margin: 25px 0px 25px 0px;
+    min-height: 250px;
+    color: #fff;
+}
+.about h1{
+    margin-bottom: 5px;
+}
+
+.box-1 p{
+    background-color: #669933;
+}
+
+.box-2 p{
+    background-color: #0B5172;
+}
+.box-3 p{
+    background-color: #CC0033;
+}
+
+
+
+
+
