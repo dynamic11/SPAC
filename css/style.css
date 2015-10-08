@@ -9,9 +9,7 @@
 .text-right {
   text-align: right !important; }
 
-.text-center {
-  text-align: center !important; 
- }
+
 
 .shadow{
     -webkit-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.75);
@@ -136,14 +134,14 @@ hr {
 }
 
 .box-1 p{
-    background-color: #4C8EAD;
+    background-color: #800031;
 }
 
 .box-2 p{
-    background-color: #4C8EAD;
+    background-color: #541868;
 }
 .box-3 p{
-    background-color: #4C8EAD;
+    background-color: #006699;
 }
 
 /*==========================Speaker==============================*/
@@ -201,13 +199,7 @@ hr {
     color:#778899;
 }
 
-footer{
-    background-color:#0B5172;
-    margin-top:-60px;
-}
-.footer{
-    padding: 30px 50px;
-}
+
 
 .navbar{
     background-color:#0B5172;
@@ -215,4 +207,108 @@ footer{
 
 .body {
   padding-top: 100px;
+}
+
+.header-logo {
+   height:100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+.header-logo td{ 
+     vertical-align: middle;
+     text-align: center;
+}
+.header-logo img{ 
+     width: 20%;
+     max-width: 600px;
+     padding-top:80px;
+     
+}
+
+.navbar-brand {
+	margin: 0px 0px 0px 10px;
+    padding: 0;
+}
+	.navbar-brand img{
+		margin: 0 0px 0 0px;
+		padding: 5px 20px 10px 20px;
+		width: 170px;
+		height: auto;
+        background-color: white;	
+
+	}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+#agenda .table{
+ width: 90%;
+}
+@media (max-width: 4000px) {
+    #agenda .table {
+        width: 50%;
+    }
+}
+@media (max-width:1200px) {
+    #agenda .table {
+        width: 60%;
+    }
+
+}
+@media (max-width:770px) {
+    #agenda .table {
+        width: 90%;
+    }
+
+}
+
+@media (max-width:470px) {
+    #agenda .table {
+        width: 90%;
+    }
+
+}
+#agenda .table thead {
+    background-color: #006699;
+    color:  #fff;
+}
+.zz{
+    background-color: red;
+}
+
+.center-table
+{
+  margin: 0 auto !important;
+  float: none !important;
+}
+
+
+footer{
+    background-color:#0B5172;
+    margin-top:-60px;
+}
+.footer{
+    padding: 30px 50px;
+    color: #fff;
+}
+footer li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+footer ul{
+    margin: 0;
+}
+footer li i{
+    padding-right: 10px;
+    text-align: left;
 }
