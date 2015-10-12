@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="./css/bootstrap.css" media="screen">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./font-awesome-4.4.0/css/font-awesome.min.css">
-    <script src="./javascript/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="./javascript/jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="./javascript/bootstrap.min.js" charset="UTF-8"></script>
     <script type="text/javascript" src="./javascript/javascript.js" ></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -36,7 +37,7 @@
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a href="../" class="navbar-brand">Bootswatch</a>
+          <a href="#top" class="navbar-brand "><img src="spac15.png" alt="chapter logo" class="shadow"></img></a>
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -44,56 +45,28 @@
           </button>
         </div>
         <div class="navbar-collapse collapse" id="navbar-main">
-          <ul class="nav navbar-nav">
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Themes <span class="caret"></span></a>
-              <ul class="dropdown-menu" aria-labelledby="themes">
-                <li><a href="../default/">Default</a></li>
-                <li class="divider"></li>
-                <li><a href="../cerulean/">Cerulean</a></li>
-                <li><a href="../cosmo/">Cosmo</a></li>
-                <li><a href="../cyborg/">Cyborg</a></li>
-                <li><a href="../darkly/">Darkly</a></li>
-                <li><a href="../flatly/">Flatly</a></li>
-                <li><a href="../journal/">Journal</a></li>
-                <li><a href="../lumen/">Lumen</a></li>
-                <li><a href="../paper/">Paper</a></li>
-                <li><a href="../readable/">Readable</a></li>
-                <li><a href="../sandstone/">Sandstone</a></li>
-                <li><a href="../simplex/">Simplex</a></li>
-                <li><a href="../slate/">Slate</a></li>
-                <li><a href="../spacelab/">Spacelab</a></li>
-                <li><a href="../superhero/">Superhero</a></li>
-                <li><a href="../united/">United</a></li>
-                <li><a href="../yeti/">Yeti</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="../help/">Help</a>
-            </li>
-            <li>
-              <a href="http://news.bootswatch.com">Blog</a>
-            </li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="download">Flatly <span class="caret"></span></a>
-              <ul class="dropdown-menu" aria-labelledby="download">
-                <li><a href="http://jsfiddle.net/bootswatch/jmg3gykg/">Open Sandbox</a></li>
-                <li class="divider"></li>
-                <li><a href="./bootstrap.min.css">bootstrap.min.css</a></li>
-                <li><a href="./bootstrap.css">bootstrap.css</a></li>
-                <li class="divider"></li>
-                <li><a href="./variables.less">variables.less</a></li>
-                <li><a href="./bootswatch.less">bootswatch.less</a></li>
-                <li class="divider"></li>
-                <li><a href="./_variables.scss">_variables.scss</a></li>
-                <li><a href="./_bootswatch.scss">_bootswatch.scss</a></li>
-              </ul>
-            </li>
-          </ul>
-
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="http://builtwithbootstrap.com/" target="_blank">Built With Bootstrap</a></li>
-            <li><a href="https://wrapbootstrap.com/?ref=bsw" target="_blank">WrapBootstrap</a></li>
+            <li>
+              <a href="#top">Info</a>  
+            </li>
+            <li>
+              <a href="#about">About</a>
+            </li>
+            <li>
+              <a href="#speaker">Speakers</a>
+            </li>
+            <li>
+              <a href="#agenda">Agenda</a>
+            </li>
+            <li>
+              <a href="#tickets">Tickets</a>
+            </li>
+            <li>
+              <a href="#patrons">Patrons</a>
+            </li>
+            <li>
+              <a href="#contact">Contact</a>
+            </li>
           </ul>
 
         </div>
@@ -101,10 +74,10 @@
     </div>
 
     <!-- Cover -->
-    <div class="page-head" data-parallax="scroll" data-image-src="test.jpg">
-      <table class="header-logo">
-          <tr>
-             <td><img src="pictures/logos/Final/ieeeOttawaEditChapter.png" alt="chapter logo" id="logo"></img></td>
+    <div class="page-head" data-parallax="scroll" data-image-src="header2.jpg" id="top">
+      <table class="header-logo ">
+          <tr >
+             <td ><img src="spac15.png" alt="chapter logo" id="logo"></img></td>
           <tr>
         </table>
     </div>
@@ -115,14 +88,14 @@
       ================================================== -->
       <div class="page-header" id="banner">
         <div class="row">
-          <div class="col-lg-4 col-sm-4 col-xs-6 text-center event-info-icons">
+          <div class="col-lg-4 col-sm-4 col-xs-12 text-center event-info-icons">
             <a href="#">
                 <i class="fa fa-calendar fa-2x circle-icon shadow calender-icon"></i>
                 <h4>January 29, 2015</h4>
                 <p>6:00 PM</p>
             </a>
           </div>
-          <div class="col-lg-4 col-sm-4 col-xs-6 text-center event-info-icons">
+          <div class="col-lg-4 col-sm-4 col-xs-12 text-center event-info-icons">
             <a href="https://www.google.ca/maps/place/Hellenic+Meeting+%26+Reception+Centre/@45.3714971,-75.7052977,18.75z/data=!4m2!3m1!1s0x4cce066ed58c1347:0xa30076f96c916d7c">
                 <i class="fa fa-map-marker fa-2x circle-icon shadow location-icon"></i>
                 <h4>Hellenic Meeting and Reception Centre</h4>
@@ -143,7 +116,7 @@
       <!-- about
       ================================================== -->
      
-     <div class="row section about">
+     <div class="row section" id="about">
          <h1 class="text-center">About</h1>
          <div class="col-lg-4 col-md-4 col-sm-4 text-center box-1">
              <p class="shadow">IEEE Student Professional Awareness Conference (SPAC) is a formal dinner event that aims to bridge the gap between students and their career goals. SPAC offers students and employers a unique opportunity to network with one another in a professional environment along with professionals and academics representing the field of Engineering.</p>
@@ -159,7 +132,7 @@
 
       <!-- speakers
       ================================================== -->
-      <div class="row section speaker">
+      <div class="row section" id="speaker">
          <h1 class="text-center">Speaker</h1>
          <div class="col-lg-6 col-md-6 col-sm-6 text-center speaker-box">
              <img class="shadow img-circle" src="./speaker/team1.jpg" alt="speaker 1"></img>
@@ -176,10 +149,55 @@
       </div>
       <hr></hr>
 
+      <!-- agenda
+      ================================================== -->
+      <div class="row section " id="agenda">
+         <h1 class="text-center">Speaker</h1>
+             <table class="table table-striped center-table">
+                  <thead>
+                    <tr>
+                      <th>Time</th>
+                      <th>Event Detail</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>6:00 - 6:30PM</td>
+                      <td>Registration</td>
+                    </tr>
+                    <tr>
+                      <td>6:35 - 6:45PM</td>
+                      <td>Welcoming Remarks</td>
+                    </tr>
+                    <tr>
+                      <td>6:45 - 7:10PM</td>
+                      <td>Speaker: Dr. Jim Wight</td>
+                    </tr>
+                    <tr>
+                      <td>7:10 - 7:55PM</td>
+                      <td>Dinner</td>
+                    </tr>
+                    <tr>
+                      <td>8:00 - 8:25PM</td>
+                      <td>Speaker: Paul Vallée</td>
+                    </tr>
+                    <tr>
+                      <td>8:25 - 8:45PM</td>
+                      <td>Closing Remarks & Prizes</td>
+                    </tr>
+                    <tr>
+                      <td>8:45 - 10:00PM</td>
+                      <td>Networking</td>
+                    </tr>
+                  </tbody>
+                </table> 
+      </div>
+      <hr></hr>
+
     <!-- Tickets
       ================================================== -->
      
-     <div class="row section tickets">
+     <div class="row section" id="tickets">
          <h1 class="text-center">Tickets</h1>
          <div class="col-lg-12 text-center">
              <h3>Visit your local IEEE student branch for tickets today!</h3>
@@ -187,11 +205,10 @@
          </div>
       </div>
       <hr></hr>
-
         
-      <!-- Tickets
+      <!-- Patrons
       ================================================== -->
-     <div class="patrons section">
+     <div class="section" id="patrons">
           <div class="row patron-header">
              <h1 class="text-center">Our Patrons</h1>
              <div class="col-lg-12 text-center">
@@ -249,53 +266,39 @@
               <div class="col-lg-6 text-center">
                 <img src="./sponsors/gsa.png" alt="ieee-ottawa">
               </div>
+              <a href="http://spac2016.github.io/SPACPatron/">Visit our Patrons Page for more information</a>
+            <ul>
           </div>
-      </div>
-      <hr></hr>
-      
-
-  
-
-      <div id="source-modal" class="modal fade">
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content">
-            <div class="modal-header">
-              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-              <h4 class="modal-title">Source Code</h4>
-            </div>
-            <div class="modal-body">
-              <pre></pre>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <footer>
-        <div class="row">
-          <div class="col-lg-12">
-
-            <ul class="list-unstyled">
-              <li class="pull-right"><a href="#top">Back to top</a></li>
-              <li><a href="http://news.bootswatch.com" onclick="pageTracker._link(this.href); return false;">Blog</a></li>
-              <li><a href="http://feeds.feedburner.com/bootswatch">RSS</a></li>
-              <li><a href="https://twitter.com/bootswatch">Twitter</a></li>
-              <li><a href="https://github.com/thomaspark/bootswatch/">GitHub</a></li>
-              <li><a href="../help/#api">API</a></li>
-              <li><a href="../help/#support">Support</a></li>
-            </ul>
-            <p>Made by <a href="http://thomaspark.co" rel="nofollow">Thomas Park</a>. Contact him at <a href="/cdn-cgi/l/email-protection#d2a6babdbfb3a192b0bdbda6a1a5b3a6b1bafcb1bdbf"><span class="__cf_email__" data-cfemail="97e3fff8faf6e4d7f5f8f8e3e4e0f6e3f4ffb9f4f8fa">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">
-/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("data-cfhash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}t.parentNode.removeChild(t);}}catch(u){}}()/* ]]> */</script></a>.</p>
-            <p>Code released under the <a href="https://github.com/thomaspark/bootswatch/blob/gh-pages/LICENSE">MIT License</a>.</p>
-            <p>Based on <a href="http://getbootstrap.com" rel="nofollow">Bootstrap</a>. Icons from <a href="http://fortawesome.github.io/Font-Awesome/" rel="nofollow">Font Awesome</a>. Web fonts from <a href="http://www.google.com/webfonts" rel="nofollow">Google</a>.</p>
-
-          </div>
-        </div>
-
-      </footer>
-
-
+      </div>     
     </div>
 
+      <footer>
+          <div class="container">
+        <div class="row footer">
+          <div class="col-lg-4">
+                <li><i class="fa fa-globe"></i>Website</li>
+                <li><i class="fa fa-map-marker"></i>Address</li>
+                <li><i class="fa fa-envelope"></i>Email</li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+              <ul>
+                <li><i class="fa fa-globe"></i>Website</li>
+                <li><i class="fa fa-map-marker"></i>Address</li>
+                <li><i class="fa fa-envelope"></i>Email</li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h3>IEEE Algonquin College</h3>
+              <ul>
+                <li><i class="fa fa-globe"></i>Website</li>
+                <li><i class="fa fa-map-marker"></i>Address</li>
+                <li><i class="fa fa-envelope"></i>Email</li>
+            </ul>
+          </div>
+        </div>
+            </div>
+      </footer>
 
     <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
