@@ -14,7 +14,7 @@
 .shadow{
     -webkit-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.75);
-    box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 1px 10px 0px rgba(0,0,0,0.75);
 }
 body{
     background-color: #D3D3D3; 
@@ -73,7 +73,7 @@ hr {
      
 }
 .body-box{
-    margin-top: -60px;
+    margin-top: -80px;
     z-index: 99;
     background-color: #fff; 
     padding: 40px 40px;
@@ -96,16 +96,16 @@ hr {
     margin-bottom:  50px;
 }
 .calender-icon{
-    background-color: #006699;
+    background-color: #CC0033;
     color: #fff;
     
 }
 .location-icon{
-    background-color: #006699;
+    background-color: #E37222;
     color: #fff;
 }
 .ticket-icon{
-    background-color: #006699;
+    background-color: #66CC33;
     color: #fff;
 }
 .event-info-icons a h4{
