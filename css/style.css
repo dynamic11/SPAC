@@ -312,6 +312,8 @@ footer li i{
     padding-right: 10px;
     text-align: left;
 }
+<<<<<<< HEAD
+=======
 
 .contact_icons{
     height: 80px;
@@ -323,3 +325,4 @@ footer li i{
 footer hr{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 1), rgba(0, 0, 0, 0));
 }
+>>>>>>> refs/remotes/origin/Ali's-DEV
