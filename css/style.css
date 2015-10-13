@@ -190,6 +190,15 @@ hr {
 }
 
 /*==========================patron==============================*/
+.patron-header h1{
+    padding-bottom:  0;
+    margin-bottom:  0;
+    
+}
+.patron-header h3{
+    padding:  0;
+    
+}
 .patrons-row img{
     width:  80%;
     max-width: 300px;
@@ -312,8 +321,6 @@ footer li i{
     padding-right: 10px;
     text-align: left;
 }
-<<<<<<< HEAD
-=======
 
 .contact_icons{
     height: 80px;
@@ -325,4 +332,3 @@ footer li i{
 footer hr{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 1), rgba(0, 0, 0, 0));
 }
->>>>>>> refs/remotes/origin/Ali's-DEV
