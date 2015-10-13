@@ -312,3 +312,14 @@ footer li i{
     padding-right: 10px;
     text-align: left;
 }
+
+.contact_icons{
+    height: 80px;
+    display: block;
+     margin: 0 auto;
+     padding:  10px 10px 10px 10px;
+}
+
+footer hr{
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 1), rgba(0, 0, 0, 0));
+}
