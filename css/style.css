@@ -322,7 +322,7 @@ footer{
     margin-top:-60px;
 }
 .footer{
-    padding: 30px 50px;
+    padding: 30px  50px 15px 50px;
     color: #fff;
 }
 footer li {
@@ -340,10 +340,10 @@ footer li i{
 }
 
 .contact_icons{
-    height: 80px;
+    height: 85px;
     display: block;
-     margin: 0 auto;
-     padding:  10px 10px 20px 10px;
+    margin: 0 auto;
+    padding:  10px 10px 20px 10px;
 }
 
 footer hr{
@@ -361,4 +361,14 @@ footer hr{
         padding-bottom: 0;
         margin-bottom: 0;
     }
+}
+
+.footer-message{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.footer-message p{
+    margin-top: 0px;
+    text-align: center;
+    color: white;
 }
