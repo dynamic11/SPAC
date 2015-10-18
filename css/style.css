@@ -44,7 +44,7 @@ hr {
 /*==========================cover photo==============================*/
 .page-head{
 	background-size: cover;
-	height: 520px;
+	height: 500px;
 	padding: 0px 0 0 0px;
 	margin: 0px;
 	background: transparent;
@@ -462,4 +462,11 @@ footer hr{
   font-size: 68px;
   text-shadow: 0 3px rgba(0, 0, 0, 0.1);
   color: #fff;
+}
+
+ .navbar .nav li a:visited{
+    color:  #fff;
+}
+ .navbar .nav li a:hover{
+    color:  #18bc9c;
 }
