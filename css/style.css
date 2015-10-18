@@ -389,7 +389,7 @@ footer hr{
 /*==========================header==============================*/
 
 #main-slider {
-  background: url("../header.jpg") ;
+  background: url("../images/header/header.jpg") ;
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% 50%;
