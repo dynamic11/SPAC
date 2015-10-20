@@ -403,7 +403,7 @@ footer hr{
 /*==========================header==============================*/
 
 #main-slider {
-  background: url("../images/header/header.jpg") ;
+  background: url("../images/header/header4.jpg") ;
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% 50%;
@@ -483,4 +483,8 @@ footer hr{
 }
  .navbar .nav li a:hover{
     color:  #18bc9c;
+}
+
+.carousel-message{
+    background-color: rgba(0, 0, 0, 0.5);
 }
