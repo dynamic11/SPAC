@@ -3,14 +3,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bootswatch: Flatly</title>
+    <title>SPAC-2016</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" href="./css/bootstrap.css" media="screen">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./font-awesome-4.4.0/css/font-awesome.min.css">
     <script type="text/javascript" src="./javascript/jquery-1.11.3.js"></script>
-    <script type="text/javascript" src="./javascript/bootstrap.min.js" charset="UTF-8"></script>
+    <script type="text/javascript" src="./javascript/bootstrap.min.js"></script>
     <script type="text/javascript" src="./javascript/javascript.js" ></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -33,11 +33,19 @@
 
     </script>
   </head>
-  <body>
+  <body id="top">
     <div class="navbar navbar-default navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a href="#top" class="navbar-brand "><img src="spac15.png" alt="chapter logo" class="shadow"></img></a>
+          <div class="navbar-brand">
+              <table class="logo-table shadow">
+                  <tr>
+                    <td class="ieee-box"><a href="http://www.ieee.org/index.html"><img src="images/logos/ieee.jpg" class="ieee-logo" alt="ieee logo"></img></a></td>
+                    <td class="div-box"><span class="sexy_line"></span></td> 
+                    <td class="spac-box"><a href="#top"><img src="images/logos/spac16.png" class="chapter-logo" alt="chapter logo" ></img></a></td>
+                  </tr>
+                </table>
+          </div>
           <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -68,19 +76,33 @@
               <a href="#contact">Contact</a>
             </li>
           </ul>
-
+          <hr class="nav-hr"></hr>
         </div>
       </div>
     </div>
 
-    <!-- Cover -->
-    <div class="page-head" data-parallax="scroll" data-image-src="header2.jpg" id="top">
-      <table class="header-logo ">
-          <tr >
-             <td ><img src="spac15.png" alt="chapter logo" id="logo"></img></td>
-          <tr>
-        </table>
-    </div>
+    <section id="main-slider" class="carousel ">
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="container">
+                    <div class="carousel-content ">
+                        <h2 class="header-h2">IEEE Student Professional Awareness Conference</h2>
+                        <p class="lead">Engage Your Future</p>
+                    </div>
+                </div>
+            </div><!--/.item-->
+            <div class="item">
+                <div class="container">
+                    <div class="carousel-content ">
+                        <h2 class="header-h2">More Information Coming Soon!</h2>
+                        <p class="lead">Stay Tuned</p>
+                    </div>
+                </div>
+            </div><!--/.item-->
+        </div><!--/.carousel-inner-->
+        <a class="prev" href="#main-slider" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+        <a class="next" href="#main-slider" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+    </section><!--/#main-slider-->
 
     <div class="container body-box">
 
@@ -103,7 +125,7 @@
             </a>
           </div>
           <div class="col-lg-4 col-sm-4 col-xs-12 text-center event-info-icons">
-            <a href="#">
+            <a href="#tickets">
                 <i class="fa fa-ticket fa-2x circle-icon shadow ticket-icon"></i>
                 <h4>Click Here to Buy Online</h4>
                 <p>Or visit your local IEEE student branch</br> for tickets today!</p>
@@ -210,18 +232,27 @@
       ================================================== --> 
      <div class="row section" id="contact">
          <h1 class="text-center">Contact Us</h1>
-         <div class="col-lg-12 text-center">
-            <!-- Do not change the code! -->
-            <a id="foxyform_embed_link_712144" href="http://www.foxyform.com/">foxyform</a>
-            <script type="text/javascript">
-                (function(d, t){
-                   var g = d.createElement(t),
-                       s = d.getElementsByTagName(t)[0];
-                   g.src = "http://www.foxyform.com/js.php?id=712144&sec_hash=cef879fc90b&width=350px";
-                   s.parentNode.insertBefore(g, s);
-                }(document, "script"));
+         <div class="col-lg-4 col-lg-offset-4">
+             <div id="wufoo-zepe9h612u0jl7">
+                 Fill out my <a href="https://dynamic11.wufoo.com/forms/zepe9h612u0jl7">online form</a>.
+            </div>
+            <script type="text/javascript">var zepe9h612u0jl7;(function(d, t) {
+                var s = d.createElement(t), options = {
+                'userName':'dynamic11',
+                'formHash':'zepe9h612u0jl7',
+                'autoResize':true,
+                'height':'500',
+                'async':true,
+                'host':'wufoo.com',
+                'header':'show',
+                'ssl':true};
+                s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+                s.onload = s.onreadystatechange = function() {
+                var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                try { zepe9h612u0jl7 = new WufooForm();zepe9h612u0jl7.initialize(options);zepe9h612u0jl7.display(); } catch (e) {}};
+                var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                })(document, 'script');
             </script>
-            <!-- Do not change the code! -->
          </div>
       </div>
       <hr></hr>
@@ -236,7 +267,7 @@
                  <h3>SPAC would not be possible without the support of our patrons</h3>
              </div>
           </div>
-          <div class="row patrons-row">
+          <div class="row patrons-row gold">
               <h3 class="text-center">Gold Patrons</h3>
               <div class="col-lg-4 text-center">
                 <img src="./sponsors/shopify.png" alt="Shopify">
@@ -245,10 +276,10 @@
                 <img src="./sponsors/ieee-ottawa-section.png" alt="ieee-ottawa">
               </div>
               <div class="col-lg-4 text-center">
-                <img src="./sponsors/carleton-fed.png" alt="">
+                <img src="./sponsors/carleton-fed.png" alt="carleton fed">
               </div>
           </div>
-          <div class="row patrons-row">
+          <div class="row patrons-row silver">
               <h3 class="text-center">Silver Patrons</h3>
               <div class="col-lg-4 text-center">
                 <img src="./sponsors/pythian.png" alt="Pythian">
@@ -257,10 +288,10 @@
                 <img src="./sponsors/fidus.png" alt="ieee-ottawa">
               </div>
               <div class="col-lg-4 text-center">
-                <img src="./sponsors/algonquin-logo.png" alt="">
+                <img src="./sponsors/algonquin-logo.png" alt="Algonquin">
               </div>
           </div>
-         <div class="row patrons-row">
+         <div class="row patrons-row silver">
               <div class="col-lg-6 text-center">
                 <img src="./sponsors/carleton-doe.png" alt="Pythian">
               </div>
@@ -268,7 +299,7 @@
                 <img src="./sponsors/carleton-sce.png" alt="ieee-ottawa">
               </div>
           </div>
-         <div class="row patrons-row">
+         <div class="row patrons-row bronze">
               <h3 class="text-center">Bronze Patrons</h3>
               <div class="col-lg-4 text-center">
                 <img src="./sponsors/alcatel-lucent.png" alt="Pythian">
@@ -277,17 +308,16 @@
                 <img src="./sponsors/solana.png" alt="ieee-ottawa">
               </div>
               <div class="col-lg-4 text-center">
-                <img src="./sponsors/carleton-coop.png" alt="">
+                <img src="./sponsors/carleton-coop.png" alt="carleton coop">
               </div>
           </div>
-         <div class="row patrons-row">
+         <div class="row patrons-row bronze">
               <div class="col-lg-6 text-center">
                 <img src="./sponsors/cusa.png" alt="Pythian">
               </div>
               <div class="col-lg-6 text-center">
                 <img src="./sponsors/gsa.png" alt="ieee-ottawa">
               </div>
-            <ul>
           </div>
       </div>     
     </div>
@@ -298,14 +328,17 @@
               <h4 class="text-center">SPAC 2016 is organized by</h4>
             <hr></hr>
               <div class="col-lg-4">
-                  <img class="block-center contact_icons" src="IEEE_Carleton.png"></img>
+                  <a href="http://ieee.carleton.ca/"><img class="block-center contact_icons" src="images/logos/IEEE_Carleton.png" alt="IEEE Carleton"></img></a>
               </div>
               <div class="col-lg-4">
-                  <img class="block-center contact_icons" src="IEEE_uOttawa.png"></img>
+                  <a href="http://www.ieeeuottawa.ca/"><img class="block-center contact_icons" src="images/logos/IEEE_uOttawa.png" alt="IEEE UOttawa"></img></a>
               </div>
               <div class="col-lg-4">
-                  <img class="block-center contact_icons" src="IEEE_Algonquin.png"></img>
+                  <a href="http://ewh.ieee.org/sb/ottawa/algonquin/"><img class="block-center contact_icons" src="images/logos/IEEE_Algonquin.png" alt="IEEE Algonquin"></img></a>
               </div>
+            </div>
+            <div class="row footer-message">
+                <p>Website designed by <a href="http://www.anouri.ca">Ali Nouri</a></p>
             </div>
         </div>
       </footer>

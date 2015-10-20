@@ -43,18 +43,23 @@ hr {
 
 /*==========================cover photo==============================*/
 .page-head{
-	background-size: cover;
-	height: 520px;
+	height: 570px;
 	padding: 0px 0 0 0px;
 	margin: 0px;
 	background: transparent;
 }
 
-@media (max-width:970px) {
+@media (max-width:985px) {
    .page-head {
         height: 450px;
     }
 
+    .ieee-box{
+        display: none;
+    }
+    .div-box{
+        display: none;
+    }
 }
 .header-logo {
    width: 50%;
@@ -66,20 +71,69 @@ hr {
      vertical-align: middle;
      text-align: center;
 }
+
 .header-logo img{ 
      width: 50%;
      max-width: 600px;
-     padding-top:80px;
-     
+     padding-top:80px;   
 }
 .body-box{
-    margin-top: -80px;
-    z-index: 99;
+    margin-top: -60px;
+    position: relative;
+    z-index: 5;
     background-color: #fff; 
     padding: 40px 40px;
     border-radius: 8px;
 }
+.header-logo {
+   height:100%;
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+.header-logo td{ 
+     vertical-align: middle;
+     text-align: center;
+}
+.header-logo img{ 
+     width: 20%;
+     max-width: 600px;
+     padding-top:80px;
+     
+}
+.header-h2{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+.logo-table {
+    background-color: white;
+}
+.navbar-brand {
+	margin: 0px 0px 0px 10px;
+    padding: 0; 
+}
+	.navbar-brand img{
+		margin: 0 0px 0 0px;
+		padding: 5px 17px 5px 10px;
+		width: 170px;
+		height: auto;
+	}
+.spac-box img{
+	margin: 0 0px 0 0px;
+	padding: 7px 6px 5px 10px;
+		width: auto;
+		height: 70px;
+}
 
+.sexy_line{ 
+    display:block;
+    border:none;
+    color:white;
+    height:50px;
+    width:2px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0), rgba(11, 81, 114, 1), rgba(0, 0, 0, 0));
+}
 /*==========================Page header-info icons==============================*/
 .circle-icon {
     background: #ffc0c0;
@@ -208,8 +262,23 @@ hr {
     color:#778899;
 }
 
+.gold img {
+    width:  100%;
+    max-width: 300px;
+    margin: 20px;
+}
 
+.silver img {
+    width:  50%;
+    max-width: 300px;
+    margin: 20px;
+}
 
+.bronze img {
+    width:  40%;
+    max-width: 300px;
+    margin: 20px;
+}
 .navbar{
     background-color:#0B5172;
 }
@@ -218,36 +287,7 @@ hr {
   padding-top: 100px;
 }
 
-.header-logo {
-   height:100%;
-   width: 100%;
-   margin: 0;
-   padding: 0;
-   border: 0;
-}
-.header-logo td{ 
-     vertical-align: middle;
-     text-align: center;
-}
-.header-logo img{ 
-     width: 20%;
-     max-width: 600px;
-     padding-top:80px;
-     
-}
 
-.navbar-brand {
-	margin: 0px 0px 0px 10px;
-    padding: 0;
-}
-	.navbar-brand img{
-		margin: 0 0px 0 0px;
-		padding: 5px 20px 10px 20px;
-		width: 170px;
-		height: auto;
-        background-color: white;	
-
-	}
 
 .col-centered {
     display:inline-block;
@@ -303,9 +343,11 @@ hr {
 footer{
     background-color:#0B5172;
     margin-top:-60px;
+    position: relative;
+    z-index: 8;
 }
 .footer{
-    padding: 30px 50px;
+    padding: 30px  50px 15px 50px;
     color: #fff;
 }
 footer li {
@@ -323,12 +365,126 @@ footer li i{
 }
 
 .contact_icons{
-    height: 80px;
+    height: 85px;
     display: block;
-     margin: 0 auto;
-     padding:  10px 10px 20px 10px;
+    margin: 0 auto;
+    padding:  10px 10px 20px 10px;
 }
 
 footer hr{
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 1), rgba(0, 0, 0, 0));
+}
+.nav-hr{
+        display: none;
+    }
+
+
+@media (max-width:767px) {
+   .nav-hr{
+        display: block;
+        background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(255, 255, 255, 1), rgba(0, 0, 0, 0));
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+}
+
+.footer-message{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.footer-message p{
+    margin-top: 0px;
+    text-align: center;
+    color: white;
+}
+
+
+
+/*==========================header==============================*/
+
+#main-slider {
+  background: url("../images/header/header4.jpg") ;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  padding: 200px 0;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+#main-slider .item {
+  -moz-transition: opacity ease-in-out 500ms;
+  -o-transition: opacity ease-in-out 500ms;
+  -webkit-transition: opacity ease-in-out 500ms;
+  transition: opacity ease-in-out 500ms;
+  left: 0 !important;
+  opacity: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+  display: block !important;
+  z-index: 1;
+  text-align: center;
+}
+#main-slider .item:first-child {
+  top: auto;
+  position: relative;
+}
+#main-slider .item.active {
+  opacity: 1;
+  -moz-transition: opacity ease-in-out 500ms;
+  -o-transition: opacity ease-in-out 500ms;
+  -webkit-transition: opacity ease-in-out 500ms;
+  transition: opacity ease-in-out 500ms;
+  z-index: 2;
+}
+#main-slider .item.active h1 {
+  -webkit-animation: scaleUp 400ms;
+  -moz-animation: scaleUp 400ms;
+  -o-animation: scaleUp 400ms;
+  -ms-animation: scaleUp 400ms;
+  animation: scaleUp 400ms;
+}
+#main-slider .prev,
+#main-slider .next {
+  position: absolute;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  display: inline-block;
+  margin-top: -50px;
+  font-size: 24px;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  z-index: 5;
+}
+#main-slider .prev:hover,
+#main-slider .next:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+#main-slider .prev {
+  left: 10px;
+}
+#main-slider .next {
+  right: 10px;
+}
+#main-slider h1 {
+  font-size: 68px;
+  text-shadow: 0 3px rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+
+ .navbar .nav li a:visited{
+    color:  #fff;
+}
+ .navbar .nav li a:hover{
+    color:  #18bc9c;
+}
+
+.carousel-message{
+    background-color: rgba(0, 0, 0, 0.5);
 }
