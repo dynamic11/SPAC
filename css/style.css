@@ -262,8 +262,23 @@ hr {
     color:#778899;
 }
 
+.gold img {
+    width:  100%;
+    max-width: 300px;
+    margin: 20px;
+}
 
+.silver img {
+    width:  50%;
+    max-width: 300px;
+    margin: 20px;
+}
 
+.bronze img {
+    width:  40%;
+    max-width: 300px;
+    margin: 20px;
+}
 .navbar{
     background-color:#0B5172;
 }
