@@ -488,3 +488,20 @@ footer hr{
 .carousel-message{
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+
+/*==========================temp==============================*/
+.patrons-temp{
+    padding-bottom: 40px;
+    
+}
+.patrons-list li{
+    list-style: none;
+    text-align: center;
+}
+.patrons-list ul{
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+}
