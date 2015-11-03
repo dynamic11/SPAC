@@ -49,7 +49,7 @@ hr {
 	background: transparent;
 }
 
-@media (max-width:985px) {
+@media (max-width:991px) {
    .page-head {
         height: 450px;
     }
@@ -126,7 +126,10 @@ hr {
 		height: 70px;
 }
 
-.sexy_line{ 
+.header-ticket-button{
+    margin-top: 14px;
+}
+.div-line{ 
     display:block;
     border:none;
     color:white;
@@ -242,7 +245,33 @@ hr {
     }
 
 }
+/*==========================tickets==============================*/
+#tickets h1{
+    margin-bottom: 0px;
+}
 
+.ticket-info{
+    margin-bottom: 20px;
+}
+.ticket-button {
+    margin-top: 30px;
+    display: none;
+}
+.ticket-form{
+        display: block;
+    }
+@media (max-width:696px) {
+   .page-head {
+        height: 450px;
+    }
+
+    .ticket-form{
+        display: none;
+    }
+    .ticket-button{
+        display: block;
+    }
+}
 /*==========================patron==============================*/
 .patron-header h1{
     padding-bottom:  0;
