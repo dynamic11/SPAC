@@ -59,25 +59,29 @@
         </div>
         <div class="navbar-collapse collapse" id="navbar-main">
           <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="#top">Info</a>  
+            <li class="a-internal">
+              <a href="#banner">Info</a>  
             </li>
-            <li>
+            <li class="a-internal">
               <a href="#about">About</a>
             </li>
-            <li>
+            <li class="a-internal">
               <a href="#speaker">Speakers</a>
             </li>
-            <li>
+            <li class="a-internal">
               <a href="#agenda">Agenda</a>
             </li>
-            <li>
+            <li class="a-internal">
               <a href="#tickets">Tickets</a>
             </li>
-            <li>
-              <a href="#patrons">Patrons</a>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Patrons<span class="caret"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                    <li class="a-internal"><a href="#patrons">Past Patrons</a></li>
+                    <li><a href="patrons.html">Patrons Page</a></li>
+                </ul>
             </li>
-            <li>
+            <li class="a-internal">
               <a href="#contact">Contact</a>
             </li>
           </ul>
@@ -108,15 +112,15 @@
                 <div class="container">
                     <div class="carousel-content ">
                         <a href="http://www.kongsberggallium.com/" target="_blank"><img class="header-h2" id="kong-head-logo" src="./sponsors/kongsberg.png" height="auto" width="200" alt="Kongsberg Gallium"></img></a>
-                        <p class="lead">Kongsberg Gallium Is Our Newest Patron </p>
+                        <p class="lead">Kongsberg Gallium Is Our Newest Patron</p>
                     </div>
                 </div>
             </div><!--/.item-->
             <div class="item">
                 <div class="container header-message-pad">
                     <div class="carousel-content ">
-                        <h2 class="header-h2">More Information Coming Soon!</h2>
-                        <p class="lead">Stay Tuned</p>
+                        <h2 class="header-h2">Interested in becoming a patron?</h2>
+                        <div class="text-center"><a href="patrons.html" class="package-button btn btn-primary ">visit our patronage page</a></div>
                     </div>
                 </div>
             </div><!--/.item-->
@@ -284,7 +288,7 @@
       <!-- Patrons
       ================================================== -->
         <!--remove this and replace with commented out section-->
-        <div class="section patrons-temp" id="patrons">
+        <div class="section patrons-temp text-center block-center" id="patrons">
           <div class="row patron-header">
              <h1 class="text-center">Past Patrons</h1>
              <div class="col-lg-12 text-center">
@@ -321,7 +325,8 @@
                 </ul>
               </div>
           </div>
-         
+        <h3>Interested in becoming a patron?</h3>
+        <a href="patrons.html" class="pat-button">visit our patronage page</a>       
 </div>
 
 

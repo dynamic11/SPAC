@@ -539,3 +539,28 @@ footer hr{
     margin-top: 10px;
 }
 
+/*==========================patrons package options==============================*/
+.pat-op-box li{
+    list-style: none;
+    padding: 0px;
+}
+.pat-op-box ul{
+    padding: 0px;
+}
+
+.pat-op-box h2{
+    background-color: #006699;
+    margin: 0 20% 0 20%;
+    color: #fff;
+    padding: 6px;
+    font-size: 25px;
+}
+
+.pat-op-box h4{
+    padding: 0;
+    margin: 15px 0 5px 0;
+}
+
+.pat-op-box{
+    margin-bottom: 35px;
+}
