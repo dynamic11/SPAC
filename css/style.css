@@ -566,16 +566,10 @@ footer hr{
     color: #fff;
     background-color: #0B5172;
 } 
-.dropdown a{
-    color: #fff;
-} 
-.dropdown a:visited{
+.dropdown li a{
     color: #fff;
 } 
 
-.dropdown a:active{
-    color: #fff;
-} 
 
 .package-button{
     background-color: #006699;
@@ -583,3 +577,4 @@ footer hr{
     border: none;
     margin-top: 10px;
 }
+
