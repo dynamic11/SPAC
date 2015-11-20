@@ -202,17 +202,19 @@ hr {
 }
 
 /*==========================Speaker==============================*/
-.speaker-box h1 {
-    color: #778899;
-    font-size: 20px;
+#speaker h4{
+    margin-bottom: 20px;
+    margin-top: -10px;
+}
+.speaker-box h2 {
+    padding-bottom: 5px;
 }
 .speaker-box h4 {
     color: #778899;
-    font-size: 15px;
-    margin-bottom: 20px; 
+    font-size: 15px; 
 }
 .speaker-box p{
-    margin: 0px 20px;
+    margin: -10px 20px;
 }
 .img-circle {
    width: 45%;
@@ -319,12 +321,8 @@ hr {
 
 
 .col-centered {
-    display:inline-block;
-    float:none;
-    /* reset the text-align */
-    text-align:left;
-    /* inline-block space fix */
-    margin-right:-4px;
+    float: none;
+    margin: 0 auto;
 }
 
 #agenda .table{
@@ -437,7 +435,7 @@ footer hr{
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  padding: 200px 0;
+  padding: 140px 0;
   color: #fff;
   position: relative;
   z-index: 1;
@@ -518,6 +516,20 @@ footer hr{
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+.carousel-inner{
+    height: 200px;
+}
+
+#kong-head-logo{
+  background-color: rgba(255, 255, 255, 0.3); 
+  padding: 10px; 
+  width: 150px;  
+  margin-bottom: 10px;
+}
+
+.header-message-pad{
+    padding-top: 10px;
+}
 /*==========================temp==============================*/
 .patrons-temp{
     padding-bottom: 40px;
@@ -532,3 +544,9 @@ footer hr{
     padding: 0;
     margin: 0;
 }
+
+
+
+
+
+
