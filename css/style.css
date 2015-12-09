@@ -300,8 +300,8 @@ hr {
 }
 
 .silver img {
-    width:  50%;
-    max-width: 300px;
+    width:  60%;
+    max-width: 250px;
     margin: 20px;
 }
 
@@ -310,6 +310,18 @@ hr {
     max-width: 300px;
     margin: 20px;
 }
+
+#kongsberg-sponsor{
+    width:  25%;
+    max-width: 200px;
+    margin-top: 20px;
+}
+#NRC-sponsor{
+    width:  80%;
+    max-width: 300px;
+    margin-top: 50px;
+}
+
 .navbar{
     background-color:#0B5172;
 }
@@ -585,7 +597,6 @@ footer hr{
 .facebook{
     text-align: right;
     padding-top: 130px;
-    //background-color: #006699;
     height: 450px;
 }
 
@@ -656,3 +667,4 @@ footer hr{
     }
 
 }
+
