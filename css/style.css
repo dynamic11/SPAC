@@ -310,16 +310,31 @@ hr {
     max-width: 300px;
     margin: 20px;
 }
-
+#CCS-sponsor{
+    margin-top: 30px;
+}
+#Skyworks-sponsor{
+    margin-top: 15px;
+}
 #kongsberg-sponsor{
-    width:  25%;
+    width:  30%;
     max-width: 200px;
     margin-top: 20px;
 }
 #NRC-sponsor{
     width:  80%;
     max-width: 300px;
-    margin-top: 50px;
+    margin-top: 40px;
+}
+#Ericsson-sponsor{
+    width:  40%;
+    max-width: 200px;
+    margin-top: 20px;
+}
+#IBM-sponsor{
+    width:  45%;
+    max-width: 200px;
+    margin-top: 20px;
 }
 
 .navbar{
@@ -668,3 +683,10 @@ footer hr{
 
 }
 
+.green{
+    background-color:green;
+}
+
+.red{
+    background-color:red;
+}
