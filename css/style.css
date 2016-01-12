@@ -356,13 +356,27 @@ hr {
 #IBM-sponsor{
     width:  45%;
     max-width: 200px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 #GD-sponsor{
-    width:  40%;
+    width:  45%;
     height: auto;
     max-width: 200px;
+}
+
+#doe-sponsor{
+    width:  70%;
+    height: auto;
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+#sce-sponsor{
+    width:  70%;
+    height: auto;
+    max-width: 300px;
+    margin-top: 20px;
 }
 .navbar{
     background-color:#0B5172;
