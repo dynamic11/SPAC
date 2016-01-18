@@ -303,7 +303,7 @@ hr {
     margin-bottom: 30px; 
 }
 .patrons-row img{
-    width:  80%;
+    width:  100%;
     max-width: 300px;
     margin: 20px;
 }
@@ -311,19 +311,19 @@ hr {
     color:#778899;
 }
 .partner img {
-    width:  100%;
-    max-width: 400px;
+    width:  90%;
+    max-width: 500px;
     margin: 20px;
 }
 .gold img {
-    width:  100%;
-    max-width: 300px;
+    width:  90%;
+    max-width: 400px;
     margin: 20px;
 }
 
 .silver img {
     width:  60%;
-    max-width: 250px;
+    max-width: 300px;
     margin: 20px;
 }
 
