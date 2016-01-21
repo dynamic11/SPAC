@@ -369,15 +369,33 @@ hr {
     width:  70%;
     height: auto;
     max-width: 300px;
-    margin-top: 20px;
+    margin-top: 30px;
+}
+
+#fed-sponsor{
+    width:  70%;
+    height: auto;
+    max-width: 300px;
+    margin-top: 30px;
 }
 
 #sce-sponsor{
     width:  70%;
     height: auto;
     max-width: 300px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
+
+#alg-sponsor{
+    margin-top: 30px;
+    max-width: 250px;
+}
+
+#cusa-sponsor{
+    max-width: 200px;
+    margin-top: 30px;
+}
+
 .navbar{
     background-color:#0B5172;
 }
