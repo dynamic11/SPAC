@@ -140,10 +140,10 @@ hr {
 
 #sky-head-logo{  
   background-color: rgba(255, 255, 255, 0.3); 
-  padding: 30px 20px;
+  padding: 6px 20px;
   width: 85%; 
-  max-width: 350px;
-  margin-bottom: 10px;}
+  max-width: 200px;
+  }
 
 
 @media (max-width:696px) {
@@ -617,9 +617,7 @@ footer hr{
     padding-top: 10px;
 }
 /*==========================temp==============================*/
-.patrons-temp{
-    padding-bottom: 40px;
-}
+
 .patrons-list li{
     list-style: none;
     text-align: center;
