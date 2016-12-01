@@ -196,7 +196,7 @@ hr {
 
 /*==========================About==============================*/
 #about p{
-    padding: 30px 20px 20px 30px;
+    padding: 30px 19px 20px 15px;
     margin: 25px 0px 25px 0px;
     min-height: 250px;
     color: #fff;
@@ -308,7 +308,8 @@ hr {
     margin: 20px;
 }
 .patrons-row h3 {
-    color:#778899;
+    color:#0666A1;
+    font-weight: bold;
 }
 .partner img {
     width:  90%;
@@ -355,7 +356,7 @@ hr {
 }
 #IBM-sponsor{
     width:  45%;
-    max-width: 200px;
+    max-width: 120px;
     margin-top: 10px;
 }
 
@@ -384,6 +385,7 @@ hr {
     height: auto;
     max-width: 300px;
     margin-top: 30px;
+    
 }
 
 #alg-sponsor{
@@ -394,6 +396,17 @@ hr {
 #cusa-sponsor{
     max-width: 200px;
     margin-top: 30px;
+}
+
+#Lumenera-sponsor{
+  margin-top: 10px;
+
+}
+
+#march-networks-sponsor{
+  margin-top: 30px;
+  margin-bottom: 0px;
+
 }
 
 .navbar{
