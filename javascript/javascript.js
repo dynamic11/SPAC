@@ -16,6 +16,9 @@ jQuery(function($) {
 		}, 500);
 	});
 
+	$('.navbar-collapse a').click(function(){
+   		$(".navbar-collapse").collapse('hide');
+	});
 
 
 });

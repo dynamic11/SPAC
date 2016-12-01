@@ -188,7 +188,7 @@ hr {
     width: 20%;
 }
 .box-1{
-    background-color: #006699;
+    background-color: #0666A1;
     padding: 30px 20px 20px 30px;
     margin: 25px 0px 25px 0px;
     color: #fff;
@@ -307,7 +307,7 @@ hr {
     margin: 20px;
 }
 .navbar{
-    background-color:#0B5172;
+    background-color:#0666A1;
 }
 
 .body {
@@ -353,7 +353,7 @@ hr {
 
 }
 #agenda .table thead {
-    background-color: #006699;
+    background-color: #0666A1;
     color:  #fff;
 }
 .zz{
@@ -368,7 +368,7 @@ hr {
 
 
 footer{
-    background-color:#0B5172;
+    background-color:#0666A1;
     margin-top:-60px;
     position: relative;
     z-index: 8;
@@ -430,7 +430,7 @@ footer hr{
 /*==========================header==============================*/
 
 #main-slider {
-  background: url("../images/header/pat-header1.jpg") ;
+  background: url("../images/header/pat-header1.png") ;
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% 50%;
@@ -533,11 +533,18 @@ footer hr{
 
 /*==========================patrons package button==============================*/
 .package-button{
-    background-color: #006699;
+    background-color: #0666A1;
     font-size: 20px;
     border: none;
     margin-top: 10px;
+    
 }
+.package-button:hover{
+    text-decoration: none;
+    background-color: #2C3E50;
+    color: #fff;
+}
+
 
 /*==========================patrons package options==============================*/
 .pat-op-box li{
@@ -549,7 +556,7 @@ footer hr{
 }
 
 .pat-op-box h2{
-    background-color: #006699;
+    background-color: #0666A1;
     margin: 0 20% 0 20%;
     color: #fff;
     padding: 6px;
