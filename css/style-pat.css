@@ -92,12 +92,14 @@
     margin-top: 10px;
 
 }
-.package-button:hover{
+.package-button:hover,
+.package-button:active,
+.package-button:visited,
+.package-button:focus {
     text-decoration: none;
     background-color: #004c72;
     color: #fff;
 }
-
 
 /*==========================patrons package options==============================*/
 .pat-op-box li{
