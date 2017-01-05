@@ -674,6 +674,8 @@ footer hr{
     padding: 10px;
     font-size: 20px;
     width: 250px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .pat-button:hover{
