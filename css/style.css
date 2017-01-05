@@ -119,6 +119,10 @@ hr {
     width: 170px;
     height: auto;
   }
+
+.patron-dropdown {
+  background-color: #e8e8e8;
+}
 .spac-box img{
   margin: 0 0px 0 0px;
   padding: 7px 6px 5px 10px;
@@ -670,6 +674,8 @@ footer hr{
     padding: 10px;
     font-size: 20px;
     width: 250px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 .pat-button:hover{
@@ -681,7 +687,7 @@ footer hr{
 
 .dropdown-menu{
     color: #fff;
-    background-color: #0666A1;
+    background-color: #313131;
     margin-right: -1px;
 }
 .dropdown li a{
@@ -694,6 +700,7 @@ footer hr{
     border: none;
     margin-top: 10px;
 }
+
 .dropdown-toggle{
     margin-bottom: -1px;
 }
@@ -781,4 +788,8 @@ footer hr{
 
 .red{
     background-color:red;
+}
+
+.link-clickable {
+  cursor: pointer;
 }
