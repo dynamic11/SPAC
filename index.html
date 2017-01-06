@@ -43,15 +43,15 @@
                         <li class="a-internal">
                             <a href="#about">About</a>
                         </li>
-                        <!--<li class="a-internal">
+                        <li class="a-internal">
                             <a href="#speaker">Speakers</a>
-                        </li>-->
+                        </li>
                         <li class="a-internal">
                             <a href="#agenda">Agenda</a>
                         </li>
-                        <!--<li class="a-internal">
+                        <li class="a-internal">
                             <a href="#tickets">Tickets</a>
-                        </li>-->
+                        </li>
                         <li class="dropdown">
                               <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false" data-target="#">
                                  Patrons
@@ -95,14 +95,28 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="item">
+                <div class="item">
                     <div class="container header-message-pad main-message">
                         <div class="carousel-content ">
-                            <h2 class="header-h2">Early-Bird Ticket Sales End Jan. 15</h2>
-                            <div class="lead header-ticket-button"><a href="http://www.eventbrite.ca/e/spac16-engage-your-future-tickets-19343730619?ref=ebtnebtckt" target="_blank"><img src="https://www.eventbrite.ca/custombutton?eid=19343730619" alt="Eventbrite - SPAC16 - Engage Your Future" /></a></div>
+                            <h2 class="header-h2">Early-Bird Ticket Sales End Jan. 19</h2>
+                            <br>
+                            <div class="lead header-ticket-button">
+                                <a href="http://www.eventbrite.ca/e/spac17-grow-your-professional-network-tickets-29769221543?ref=ebtnebtckt" target="_blank"><img src="https://www.eventbrite.ca/custombutton?eid=29769221543" alt="Eventbrite - SPAC17 - Grow Your Professional Network" /></a>
+                            </div>
                         </div>
                     </div>
-                </div> -->
+                </div>
+                <div class="item">
+                    <div class="container header-message-pad main-message">
+                        <div class="carousel-content ">
+                            <h2 class="header-h2">One of our official speakers for SPAC 2017</h2>
+                            <br>
+                            <p class="lead">Alex Dorward</p>
+                            <div class="link-clickable text-center"><a href="#speaker" class="package-button btn btn-primary ">See our speakers</a></div>
+
+                        </div>
+                    </div>
+                </div>
                 <div class="item">
                     <div class="container header-message-pad main-message">
                         <div class="carousel-content ">
@@ -118,7 +132,7 @@
                             <h2 class="header-h2">Interested in becoming a Patron?</h2>
                             <br>
                             <br>
-                            <div class="link-clickable text-center"><a href="patrons.html" class="package-button btn btn-primary ">Visit our Patronage Page</a></div>
+                            <div class="link-clickable text-center"><a data-toggle="modal" data-target="#patronageModal" class="package-button btn btn-primary ">Visit our Patronage Page</a></div>
                         </div>
                     </div>
                 </div>
@@ -147,11 +161,11 @@
                         </a>
                     </div>
                     <div class="col-lg-4 col-sm-4 col-xs-12 text-center event-info-icons">
-                        <!--<a href="#tickets">-->
+                        <a href="#tickets">
                             <i class="fa fa-ticket fa-2x circle-icon shadow ticket-icon"></i>
-                            <h4>Tickets Coming Soon</h4>
-                            <!--<p>Or visit your local IEEE student branch</br> for tickets today!</p>-->
-                       <!-- </a>-->
+                            <h4>Click to Purchase</h4>
+                            <p>Or visit your local IEEE student branch</br> for tickets today!</p>
+                       </a>
                     </div>
                 </div>
             </div>
@@ -179,19 +193,27 @@
 
             <!-- speakers
             ================================================== -->
-            <!--
             <div class="row section block-center" id="speaker">
                 <h1 class="text-center">Speakers</h1>
-                <h4 class="text-center">We would like to welcome our speakers for SPAC 2016</h4>
-                <div class="col-lg-6 col-md-6 col-sm-6 text-center speaker-box">
-                    <img class="shadow img-circle" src="./speaker/jim-b.png" alt="speaker 1"></img>
-                    <h2>Jim Boland</h2>
-                    <h4>Architect, Analytics Division, IBM Canada Ltd</h4>
-                    <p>Jim is an architect in the IBM Analytics division at IBM. Over his thirteen years at IBM/Cognos, he has worked on a variety of projects including Cognos BI,
-                         Watson Analytics, Cognos Mobile, and Cognos Mashup Services. Prior to joining IBM/Cognos, Jim worked for Nortel for fourteen years.
-                         Jim is an enthusiastic technologist, particularly in the areas of mobile, IoT, beacons, wearables and contextual computing.</p>
+                <h4 class="text-center">We would like to welcome one of our speakers for SPAC 2017</h4>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3 text-center speaker-box">
+                    <img class="shadow img-circle" src="./speaker/alex-d.jpg" alt="speaker 1"></img>
+                    <h2>Alex Dorward</h2>
+                    <h4>Digital Business Integration Manager, Accenture</h4>
+                    <p>
+                      Alex has been with Accenture for 5 years and have held various project management
+                      related roles. In addition, Alex is also the Communications & Virtual Events lead
+                      for Accenture Digital Canada, the Aboriginal Employee Resource Group lead for Accenture
+                      Canada and is a member of the Accenture Canada Diversity Council.
+                      <br><br>
+                      In addition to his work at Accenture, he also co-founded an edtech startup,
+                      Canada’s leading online community for prospective university students -
+                      UniversityHub.ca, which has just been recently acquired by a Digital
+                      Marketing firm. He now maintains the role of Technical Director for
+                      UniversityHub.ca.
+                     </p>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 text-center speaker-box">
+                <!-- <div class="col-lg-6 col-md-6 col-sm-6 text-center speaker-box">
                     <img class="shadow img-circle" src="./speaker/Darcy_Poulin.jpg" alt="Darcy Poulin"></img>
                     <h2>Darcy Poulin</h2>
                     <h4>Sr. Director at Skyworks solutions</h4>
@@ -199,9 +221,10 @@
                         and has been involved in a wide variety of activities including RFIC design, applications engineering, technical product marketing,
                         and engineering management. His team at Skyworks solutions designs silicon and GaAs based integrated circuits to manufacture power amplifiers,
                         low noise amplifiers, switches, and filters for 2.4 and 5GHz WLAN products, both for handsets and access points.</p>
-                </div>
+                </div> -->
             </div>
-            <hr></hr>-->
+            <hr></hr>
+
             <!--agenda
             ================================================== -->
             <div class="row section " id="agenda">
@@ -248,19 +271,17 @@
             <hr></hr>
             <!-- Tickets
             ================================================== -->
-            <!--<div class="row section" id="tickets">
+            <div class="row section" id="tickets">
                 <h1 class="text-center">Tickets</h1>
                 <div class="col-lg-12 text-center ticket-info">
-                    <h3> Tickets are coming soon. Stay Tuned</h3>
-                    <h3> You can purchase your tickets online or visit your local IEEE student branch</h3>-->
-                    <!--<p>(SITE 4026 uOttawa / T206B Algonquin College / ME4238 Carleton University)</p>
+                    <h3> You can purchase your tickets online or visit your local IEEE student branch</h3>
+                    <p>(SITE 4026 uOttawa / T206B Algonquin College / ME4238 Carleton University)</p>
                 </div>
-               <div class="text-center ticket-button"><a href="http://www.eventbrite.ca/e/spac16-engage-your-future-tickets-19343730619?ref=ebtnebtckt" target="_blank"><img src="https://www.eventbrite.ca/custombutton?eid=19343730619" alt="Eventbrite - SPAC16 - Engage Your Future" /></a></div>
-                <div style="width:100%; text-align: center;" class="ticket-form"><iframe src="https://eventbrite.ca/tickets-external?eid=19343730619&ref=etckt" frameborder="0" height="580" width="80%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:10px; padding:5px 0 5px; margin:2px; width:100%; text-align:left;"><a class="pwoered-by-eb" style="color: #dddddd; text-decoration: none;" target="_blank" href="http://www.eventbrite.ca/r/etckt">Powered by Eventbrite</a></div></div>
+                <div style="width:100%; text-align:left;"><iframe src="//eventbrite.ca/tickets-external?eid=29769221543&ref=etckt" frameborder="0" height="478" width="100%" vspace="0" hspace="0" marginheight="5" marginwidth="5" scrolling="auto" allowtransparency="true"></iframe><div style="font-family:Helvetica, Arial; font-size:12px; padding:10px 0 5px; margin:2px; width:100%; text-align:left;" ><a class="powered-by-eb" style="color: #ADB0B6; text-decoration: none;" target="_blank" href="http://www.eventbrite.ca/">Powered by Eventbrite</a></div></div>
             </div>
 
             <hr></hr>
-            -->
+
             <!-- Patrons
             ================================================== -->
 
