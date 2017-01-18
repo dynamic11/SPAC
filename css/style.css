@@ -344,79 +344,71 @@ div.patron-intrest {
     max-width: 300px;
     margin: 20px;
 }
-#CCS-sponsor{
-    margin-top: 30px;
-}
-#Skyworks-sponsor{
-    margin-top: 15px;
-}
-#kongsberg-sponsor{
-    width:  30%;
-    max-width: 200px;
-    margin-top: 20px;
-}
-#NRC-sponsor{
-    width:  80%;
-    max-width: 300px;
-    margin-top: 40px;
-}
-#Ericsson-sponsor{
-    width:  40%;
-    max-width: 200px;
-    margin-top: 20px;
-}
-#IBM-sponsor{
-    width:  45%;
-    max-width: 120px;
-    margin-top: 10px;
+
+/* PARTNER SPONSORS */
+#ingenius-sponsor{
+  max-width: 800px
 }
 
-#GD-sponsor{
-    width:  45%;
+
+/* GOLD SPONSORS */
+#ieee-ottawa-section-sponsor{
+    width: 100%;
     height: auto;
-    max-width: 200px;
+    max-width: 600px;
+    margin-top: 25px;
 }
 
-#doe-sponsor{
+/* SILVER SPONSORS */
+
+#accenture-sponsor {
+  width:  45%;
+  max-width: 350px;
+  margin-top: 10px;
+}
+
+#carleton-doe-sponsor{
     width:  70%;
     height: auto;
-    max-width: 300px;
-    margin-top: 30px;
+    max-width: 350px;
+    margin-top: 60px;
 }
 
-#fed-sponsor{
+#carleton-fed-sponsor{
     width:  70%;
     height: auto;
-    max-width: 300px;
+    max-width: 350px;
     margin-top: 30px;
 }
 
-#sce-sponsor{
+#carleton-sce-sponsor{
     width:  70%;
     height: auto;
-    max-width: 300px;
-    margin-top: 30px;
-
-}
-
-#alg-sponsor{
-    margin-top: 30px;
-    max-width: 250px;
-}
-
-#cusa-sponsor{
-    max-width: 200px;
+    max-width: 350px;
     margin-top: 30px;
 }
 
 #lumenera-sponsor{
   margin-top: 60px;
+  max-width: 350px;
 }
 
 #march-networks-sponsor{
   margin-top: 30px;
   margin-bottom: 0px;
+  max-width: 350px;
+}
 
+/*BRONZE SPONSORS*/
+
+#ibm-sponsor{
+    width:  45%;
+    max-width: 120px;
+    margin-top: 10px;
+}
+
+#blackberry-sponsor {
+    margin-top: 15px;
 }
 
 .navbar {
