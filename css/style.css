@@ -78,7 +78,7 @@ hr {
      padding-top:80px;
 }
 .body-box{
-    margin-top: -60px;
+    margin-top: -30px;
     position: relative;
     z-index: 5;
     background-color: #fff;
@@ -532,7 +532,7 @@ footer hr{
 /*==========================header==============================*/
 
 #main-slider {
-  background: url("../images/header/header4.jpg") ;
+  background: url("../images/header/2017-main-header.jpg") ;
   background-attachment: fixed;
   background-size: cover;
   background-position: 50% 50%;
@@ -624,6 +624,12 @@ footer hr{
 .carousel-inner{
     height: 260px;
     overflow: visible;
+}
+
+.carousel-inner div.item div.container.header-message-pad.main-message {
+    background-color: rgba(0,0,0,0.35);
+    height: 330px;
+    border-radius: 10px;
 }
 
 #ingenius-head-logo{
