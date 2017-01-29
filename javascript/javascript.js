@@ -40,5 +40,26 @@ jQuery(function($) {
     });
   })();
 
+  (function(){
+    blueimp.Gallery(
+        [
+          '0B42xTONh7lAhNHF3UVZNMmpaYnM',
+          '0B42xTONh7lAhbEo2NWo4bjI3aTQ',
+          '0B42xTONh7lAhTzBSb1JrQW9BdnM',
+          '0B42xTONh7lAhQkFwUzFISGFaMWc',
+          '0B42xTONh7lAhYkFGNUhSY3RfR28',
+          '0B42xTONh7lAhaEZYZm9mSnNBOHc',
+          '0B42xTONh7lAhUXFSMUlpcUFRbE0',
+          '0B42xTONh7lAhQVJfQWFjY1dBTzQ',
+          '0B42xTONh7lAhMHUtUkduTHFPbkU',
+        ].map(function(fileID) {
+            return 'https://drive.google.com/uc?export=view&id=' + fileID;
+        }),
+        {
+            container: '#blueimp-gallery-carousel',
+            carousel: true
+        }
+    );
+  })();
 
 });

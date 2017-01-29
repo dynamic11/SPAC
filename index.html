@@ -14,7 +14,8 @@
         <link rel="stylesheet" href="./css/bootstrap.css" media="screen">
         <link rel="stylesheet" href="./css/style.css">
         <link rel="stylesheet" href="./css/style-pat.css">
-        <link rel="stylesheet" href="./font-awesome-4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="./lib/Gallery-2.22.0/css/blueimp-gallery.min.css">
+        <link rel="stylesheet" href="./lib/font-awesome-4.4.0/css/font-awesome.min.css">
     </head>
     <body id="top">
         <div class="navbar navbar-default navbar-fixed-top">
@@ -134,7 +135,7 @@
                             <h2 class="header-h2">Interested in becoming a Patron?</h2>
                             <br>
                             <br>
-                            <div class="link-clickable text-center"><a data-toggle="modal" data-target="#patronageModal" class="package-button btn btn-primary ">Visit our Patronage Page</a></div>
+                            <div class="link-clickable text-center"><a data-toggle="modal" data-target="#patronageModal" class="package-button btn btn-primary ">See out Patronage options</a></div>
                         </div>
                     </div>
                 </div>
@@ -191,6 +192,17 @@
                          University of Ottawa, and Algonquin College</p>
                 </div>
             </div>
+            <h3 class="text-center">Pictures from previous IEEE SPAC events</h3>
+            <br>
+            <div id="blueimp-gallery-carousel" class="blueimp-gallery blueimp-gallery-carousel">
+                <div class="slides"></div>
+                <h3 class="title"></h3>
+                <a class="prev">‹</a>
+                <a class="next">›</a>
+                <a class="play-pause"></a>
+                <ol class="indicator"></ol>
+            </div>
+            <br>
             <hr></hr>
 
             <!-- speakers
@@ -337,8 +349,11 @@
                         </div>
                     </div>
                     <div class="row patrons-row silver">
-                        <div class="col-lg-12 text-center">
+                        <div class="col-lg-6 text-center">
                             <a href="http://carleton.ca/sce/" target="_blank"><img src="./images/patrons/silver-carleton-sce.png" id="carleton-sce-sponsor" alt="Carleton Department of Systems and Computer Engineering"></a>
+                        </div>
+                        <div class="col-lg-6 text-center">
+                             <a href="http://www.qnx.com/content/qnx/en.html" target="_blank"><img src="./images/patrons/silver-bb-qnx.png" id="blackberry-sponsor" alt="BlackBerry QNX"></a>
                         </div>
                     </div>
                 </div>
@@ -354,7 +369,7 @@
                              <a href="https://www.realdecoy.com/" target="_blank"><img src="./images/patrons/bronze-realDecoy.jpg" id="real-decoy-sponsor" alt="RealDecoy"></a>
                         </div>
                         <div class="col-lg-4 text-center">
-                             <a href="http://ca.blackberry.com/home.html" target="_blank"><img src="./images/patrons/bronze-blackberry.jpg" id="blackberry-sponsor" alt="BlackBerry"></a>
+                             <a href="http://carleton.ca/cc/" target="_blank"><img src="./images/patrons/bronze-coop.png" id="CCS-sponsor" alt="Carleton Coop And Careers Services"></a>
                         </div>
                     </div>
                 </div>
@@ -577,6 +592,7 @@
         <script type="text/javascript" src="./javascript/jquery-1.11.3.js"></script>
         <script type="text/javascript" src="./javascript/bootstrap.min.js"></script>
         <script type="text/javascript" src="./javascript/parallax.js"></script>
+        <script src="./lib/Gallery-2.22.0/js/jquery.blueimp-gallery.min.js"></script>
         <script type="text/javascript" src="./javascript/javascript.js"></script>
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>

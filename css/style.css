@@ -408,7 +408,9 @@ div.patron-intrest {
 }
 
 #blackberry-sponsor {
-    margin-top: 15px;
+    margin-top: 37px;
+    width: 100%;
+    max-width: 380px;
 }
 
 .navbar {
