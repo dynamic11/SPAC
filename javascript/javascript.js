@@ -43,15 +43,15 @@ jQuery(function($) {
   (function(){
     blueimp.Gallery(
         [
-          '0B42xTONh7lAhbXBLTGZ6WXJXV2M',
-          '0B42xTONh7lAhcHBuTE13a2JTQ1U',
-          '0B42xTONh7lAhYjQxMzVqeTBtMTg',
-          '0B42xTONh7lAhRU1JbTFibnlqLUE',
-          '0B42xTONh7lAhaWVJMEdZd1RYNkE',
-          '0B4VqCgvXdbxNdE5HWHY2QVp6aU0',
-          '0B4VqCgvXdbxNZVdDUS00MDVXdzg',
-          '0B4VqCgvXdbxNN0NpWndsT1VBaUE',
-          '0B4VqCgvXdbxNQWxkOFBkd19RWGc',
+          '0B42xTONh7lAhNHF3UVZNMmpaYnM',
+          '0B42xTONh7lAhbEo2NWo4bjI3aTQ',
+          '0B42xTONh7lAhTzBSb1JrQW9BdnM',
+          '0B42xTONh7lAhQkFwUzFISGFaMWc',
+          '0B42xTONh7lAhYkFGNUhSY3RfR28',
+          '0B42xTONh7lAhaEZYZm9mSnNBOHc',
+          '0B42xTONh7lAhUXFSMUlpcUFRbE0',
+          '0B42xTONh7lAhQVJfQWFjY1dBTzQ',
+          '0B42xTONh7lAhMHUtUkduTHFPbkU',
         ].map(function(fileID) {
             return 'https://drive.google.com/uc?export=view&id=' + fileID;
         }),
