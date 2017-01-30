@@ -375,10 +375,9 @@ div.patron-intrest {
 }
 
 #carleton-fed-sponsor{
-    width:  70%;
-    height: auto;
+    width: 90%;
+    margin-top: 60px;
     max-width: 350px;
-    margin-top: 30px;
 }
 
 #carleton-sce-sponsor{
@@ -397,6 +396,10 @@ div.patron-intrest {
   margin-top: 30px;
   margin-bottom: 0px;
   max-width: 350px;
+}
+
+#alg-sponsor {
+  margin-top: 30px;
 }
 
 /*BRONZE SPONSORS*/
